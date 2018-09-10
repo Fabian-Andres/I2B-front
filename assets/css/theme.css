@@ -4561,6 +4561,32 @@ img {
             transform-origin: 0%; }
   .bootstrap-collapse .toggled .middle-bar {
     opacity: 0; }
+  .carousel .carousel-caption {
+    position: relative;
+    right: inherit;
+    text-align: center;
+    padding-bottom: 0; }
+    .carousel .carousel-caption span.mask-black {
+      font-size: 0.7rem; }
+    .carousel .carousel-caption h5 {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+      margin-bottom: 0;
+      color: #2c2c2c;
+      text-shadow: none; }
+    .carousel .carousel-caption .description,
+    .carousel .carousel-caption .btn-banner {
+      display: none; }
+  .carousel-indicators {
+    display: none !important; }
+  .section {
+    padding: 5% 0; }
+  .content-work li {
+    width: 184px; }
+  .card-title {
+    text-align: center; }
+  .card-testimonial .icon {
+    font-size: 2rem; }
   .profile-photo .profile-photo-small {
     margin-left: -2px; }
   .button-dropdown {
@@ -4828,8 +4854,16 @@ img {
   .navbar[class*='navbar-expand-'] .container {
     margin-left: 0;
     margin-right: 0; }
-  .footer .copyright {
+  .footer {
     text-align: center; }
+    .footer nav {
+      width: 100%; }
+    .footer ul li {
+      display: block;
+      margin-right: 0 !important;
+      margin-bottom: 10px; }
+    .footer .copyright {
+      text-align: center; }
   .section-nucleo-icons .icons-container i {
     font-size: 30px; }
     .section-nucleo-icons .icons-container i:nth-child(6) {
